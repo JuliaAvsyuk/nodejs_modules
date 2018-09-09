@@ -21,6 +21,12 @@ http.createServer(function (request, response) {
 let newName = require("./newName");
 let newname = new User("Jessy", 20);
 console.log(`Hello, ${newname.name}. Are you ${newname.age} years old?`);
+var greeting1 = require("./newName");
+let newname1 = new User("Bob", 40);
+console.log(`Hello, ${newname1.name}. Are you ${newname1.age} years old?`);
+newname1.name= "Lord";
+console.log(`Hello, ${newname1.name}. Are you ${newname1.age} years old?`);
+console.log(`Hello, ${newname.name}. Are you ${newname.age} years old?`);
 //D:\Programming\Training\трен_1\nodejs_modules>node index.js
 //Name: Julia Age: 25
 //Hello! My name is Julia. I'm 25 years old. Nice to meet you!
