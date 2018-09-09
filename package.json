@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaAvsyuk/nodejs_modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliaAvsyuk/nodejs_modules/issues"
+  },
+  "homepage": "https://github.com/JuliaAvsyuk/nodejs_modules#readme"
+}
