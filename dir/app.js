@@ -1,6 +1,7 @@
 var welcome = require("./welcome");
 
 welcome.getMorningMessage();
+welcome.getAfternoonMessage();
 welcome.getEveningMessage();
 let express = require("express");
 //create app
